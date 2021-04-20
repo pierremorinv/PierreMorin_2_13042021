@@ -12,6 +12,7 @@ h1{
     font-size: 25px;
 }
 
+
 /* Header */
 .header{
     display: flex;
@@ -124,25 +125,25 @@ text-decoration: overline;
      margin-left: 20px;
  }
 .margePopular{
-    
-    margin-top: 3px;
-    margin-left: 5px;
-       
+  display: flex;
+  margin: 5px;
+  
 }
 .popularcard{
     
 }
 .popularcardContent{
     border-radius: 10px;
-    margin:10px;
+    margin:8px;
     background-color: white;
-    width:88%; 
-    height: 150px;
+    width:92%; 
+    
   
 }
 .popularcardImg{
    
-    margin-top: 6px;
+    margin: 0.8%;
+    margin-right:10%;
     border-radius: 10px 0px 0px 10px;
     width: 150px;
     height: 140px;
@@ -155,9 +156,10 @@ text-decoration: overline;
 /* Section Activities */
 
 .activity{
-    margin: 20px;
+    
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     border-radius: 10px;   
 }
 
