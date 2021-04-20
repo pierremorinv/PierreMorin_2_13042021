@@ -1,0 +1,191 @@
+/* Body */
+body{
+    width: 99%;
+    
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration:none;
+}
+
+h1{
+    font-size: 25px;
+}
+/* Header */
+.header{
+    display: flex;
+    justify-content:space-between;    
+}
+.navigation{
+   display:flex;
+   list-style-type: none; 
+}
+.navigation a{
+    margin-left: 50px;
+}
+.navigation a:hover{
+text-decoration: overline;
+}
+
+#logo{
+    width: 25%;
+}
+ 
+/* Filters */
+  
+.filterContainer {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.list {
+    display: flex;
+}
+
+.itemList {
+    list-style-type: none;
+    padding: 50px;  
+    
+}
+
+.linkItem {
+    margin: 20px;
+    border: 3px solid #F2F2F2;
+    border-radius: 30px;
+}
+
+.linkItem:hover{
+    color: red;
+}
+
+
+/* Main */
+.container {
+    display:flex; 
+    justify-content: space-around;
+    height: 45%;
+   
+}
+/* Section accommadation */
+.accommodationContainer{
+    width: 60%;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+}
+.accommodationContainer h2{
+    margin-left: 30px;
+    
+}
+.accommodationcard{
+    margin: 25px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+.accommodationcardContent{
+    margin-bottom: 25px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    width: 260px;
+    height: 200px;
+    
+}
+.accommodationcardImg{
+    width: 250px;
+    height: 120px;
+    border-radius: 15px;
+    
+}
+.accommodationcardInformation{
+   
+}
+
+
+/*  the most popular */
+.popularContainer {
+    width: 30%;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+ }
+ 
+ .popularContainer h2{
+     margin-left: 25px;
+ }
+ .popularcard{
+       
+
+ }
+.popularcardContent{
+    border-radius: 20px;
+    margin:10px;
+    background-color: white;
+    width:95%; 
+    height: 150px;
+  
+}
+.popularcardImg{
+   
+    margin-top: 6px;
+    border-radius: 10px;
+    width: 150px;
+    height: 140px;
+}
+
+.populardcardInformation{
+}
+
+
+/* Section Activities */
+
+.activities{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;   
+}
+
+.activitycard{border-radius: 15px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 1px 1px;
+
+}
+
+.activitiesImg{
+    width: 320px;
+    height: 450px;
+    border-radius: 15px;
+}
+.bigImg{
+    width: 300px;;
+    height: 400px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+/* footer */
+footer{
+    margin-top: 30px;
+    padding: 10px;
+    border-radius:10px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 2px #F2F2F2;
+    background-color: #F2F2F2;
+}
+.inFooter{
+    display: flex;
+    align-items: flex-start;
+    flex-direction:column;
+}
+.inFooter li{
+    list-style-type: none; 
+    
+    
+
+}
