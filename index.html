@@ -49,7 +49,7 @@
 
 
     <p> Plus de 500 logements sont disponibles dans cette ville </p>
-</nav>
+
 
 
 <!-- Accomodation in Marseille -->
@@ -59,7 +59,7 @@
         <h2 id="accommodation">Hébergements à Marseille</h2>
         <div class="accommodationcard"> 
             <article class="accommodationcardContent"> 
-                <figure> 
+                <figure class="margeAccommodation"> 
                     <img class="accommodationcardImg"
                     src="Projet2-Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" 
                     alt=""
@@ -67,26 +67,26 @@
                     <figcaption class="accommodationcardInformation"> 
                         <h3>Auberge la Cannebière</h3>
                         <p>Nuit à partir de 25€</p>
-                        <div id="stars">&star; &star; &star; &star; &star;</div>   
+                        <div id="stars"> &star; &star; &star; &star; &star;</div>   
                     </figcaption> 
                 </figure>         
             </article>
 
             <article class="accommodationcardContent">  
-                <figure>
+                <figure class="margeAccommodation"> 
                     <img class="accommodationcardImg"
                     src="Projet2-Reservia/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" 
                     alt=""/>
                     <figcaption class="accommodationcardInformation">
                         <h3>Hôtel du port</h3>
                         <p>Nuit à partir de 52€</p>
-                        <div id="stars">&star; &star; &star; &star; &star;</div> 
+                        <div> &star; &star; &star; &star; &star;</div> 
                     </figcaption>  
                 </figure>
                 
             </article>
             <article class="accommodationcardContent">   
-                <figure>
+                <figure class="margeAccommodation"> 
                     <img class="accommodationcardImg"
                     src="Projet2-Reservia/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" 
                     alt  />
@@ -94,11 +94,13 @@
                         <h3>Hôtel les mouettes</h3>
                         <p>Nuit à partir de 76€</p>
                         <p> &star; &star; &star; &star; &star; </p> 
-                    </article>  
+                   
                 </figcaption>
+                </figure>
+            </article>  
                 
                 <article class="accommodationcardContent">   
-                    <figure>
+                    <figure class="margeAccommodation"> 
                         <img class="accommodationcardImg"
                         src="Projet2-Reservia/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" 
                         alt /> 
@@ -111,7 +113,7 @@
                 </article>
 
                 <article class="accommodationcardContent">    
-                    <figure>
+                    <figure class="margeAccommodation"> 
                         <img class="accommodationcardImg"
                         src="Projet2-Reservia/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" 
                         alt />
@@ -124,7 +126,7 @@
                     
                 </article>
                 <article class="accommodationcardContent">  
-                    <figure> 
+                    <figure class="margeAccommodation">  
                         <img class="accommodationcardImg"
                         src="Projet2-Reservia/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" 
                         alt  /> 
@@ -137,20 +139,21 @@
                 </article>
 
             </div>
-            <p><a href="">Afficher plus</a></p>
+            <p> <a href="">Afficher plus</a></p>
         </section>
         <!-- the most popular -->
 
         <div class="popularContainer">
-            <h2>Les plus populaires</h2>
-            <section class="popularcard"> 
+            <section> 
+                <h2>Les plus populaires</h2>
+                <div class="popularcard"> 
                 <article class="popularcardContent">
-                <figure>
+                    <figure class="margePopular">
                     <img class="popularcardImg"
                     src="Projet2-Reservia/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                     alt  /> 
                     <figcaption class="popularcardInformation">  
-                        <h3>Hôtel le soleil du matin</h3>
+                        <h2>Hôtel le soleil du matin</h2>
                         <p>Nuit à partir de 128€ </p>
                         <p> &star; &star; &star; &star; &star; </p>
                     </figcaption>
@@ -158,12 +161,12 @@
                 
             </article>
             <article class="popularcardContent">
-                <figure>
+                <figure class="margePopular">
                     <img class="popularcardImg"  
                     src="Projet2-Reservia/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" 
                     alt  /> 
                     <figcaption class="popularcardInformation"> 
-                        <h3>Au coeur de l'eau Chambres d'hôtes</h3>
+                        <h2>Au coeur de l'eau Chambres d'hôtes</h2>
                         <p>Nuit à partir de 71€ </p>
                         <p> &star; &star; &star; &star; &star; </p> 
                     </figcaption>
@@ -171,7 +174,7 @@
             </article>
 
             <article class="popularcardContent">
-                <figure>
+                <figure class="margePopular">
                     <img class="popularcardImg" 
                     src="Projet2-Reservia/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" 
                     alt /> 
@@ -182,64 +185,89 @@
                     </figcaption>
                 </figure>
             </article>
-        </section>
         </div>
+    </section>
+</div>
     </main>
 
     <!-- Activities in Marseille -->
 
 
     
-    <h2>Activités à Marseille</h2>
-    <section class="activities">
+    
+    <section>  
+        <h2 id="activities"> Activités à Marseille</h2>
+        <div class="activity">
         <article class="activitycard"> 
-            <p><img class="bigImg" 
+            <figure class="margeActivities">
+                <img class="activitiescardImgBig"  
                  src="projet2-reservia/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
                  alt  
-                 /> </p>
-            <h3>Vieux Port</h3>
+                 /> 
+                 <figcaption> 
+            <h2>Vieux Port</h2>
+        </figcaption>
+        </figure>
         </article>
         <article class="activitycard">   
-            <p><img class="activitiesImg" 
+            <figure class="margeActivities">
+                <img class="activitiescardImg"  
                 src="projet2-reservia/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" 
                 alt  
-                /> </p>
-            <h3>Fort de Pomègues</h3>
-        </article>
-        <article class="activitycard">  
-            <p><img class="activitiesImg" 
+                />
+             <figcaption> 
+            <h2>Fort de Pomègues</h2>
+        </figcaption>
+        </figure>
+        
+          
+        <figure class="margeActivities">
+                <img class="activitiescardImg" 
                 src="projet2-reservia/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" 
                 alt 
-                 /> </p>
-            <h3>Iles de frioul</h3>
+                 /> 
+                 <figcaption> 
+            <h2>Iles de frioul</h2>
+        </figcaption>
+        </figure>
         </article>
         <article class="activitycard">   
-            <p><img class="bigImg"
+            <figure class="margeActivities"> 
+                <img class="activitiescardImgBig" 
                  src="projet2-reservia/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" 
                  alt  
-                 /> </p>
-            <h3>Parc National des Calanques</h3>
+                 /> 
+                <figcaption> 
+            <h2>Parc National des Calanques</h2>
+        </figcaption>
+        </figure>
         </article>
         <article class="activitycard"> 
-            <p><img class="activitiesImg"
+            <figure class="margeActivities"> 
+                <img class="activitiescardImg" 
                  src="projet2-reservia/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" 
                  alt 
-                  /> </p>
-            <h3>Notre-Dame-de-la-Garde</h3>
-        </article>
-        <article class="activitycard">  
-            <p><img class="activitiesImg"
+                  />
+                <figcaption>  
+            <h2>Notre-Dame-de-la-Garde</h2>
+        </figcaption>
+        </figure>
+        <figure class="margeActivities">
+                <img class="activitiescardImg" 
                  src="projet2-reservia/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" 
-                 alt=""/></p>
-            <h3>Parc-Longchamp</h3>
+                 alt=""/>
+                <figcaption> 
+            <h2>Parc-Longchamp</h2>
+        </figcaption>
+        </figure>
         </article>
-        
+        </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer"> 
         <article class="inFooter"> 
-            <h3>A propos </h3>
+            <h2>A propos </h2>
             <ul>
                 <li><a href="">Fonctionnement du site</a></li>
                 <li><a href="">Conditions générales de vente</a></li>
@@ -248,14 +276,14 @@
         </article>
 
         <article class="inFooter"> 
-            <h3>Nos Hébergements</h3> 
+            <h2>Nos Hébergements</h2> 
             <ul>
                 <li><a href="">charte qualité</a></li>
                 <li><a href="">Soumettre votre hôtel</a></li>
             </ul>
         </article>        
         <article class="inFooter"> 
-            <h3>Assistance</h3>
+            <h2>Assistance</h2>
             <ul>
                 <li><a href="">centre d'aide</a></li>
                 <li><a href="">Nous contacter</a></li>
@@ -267,4 +295,5 @@
     </footer>
 </body>
 </html> 
+
 
