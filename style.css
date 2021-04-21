@@ -31,19 +31,41 @@ h3, p{
    display:flex;
    list-style-type: none; 
 }
+
 .navigation a{
     margin-left: 140px;
 }
 .navigation a:hover{
 text-decoration: overline;
 }
-
+.navRegister{
+    font-weight: bolder;
+    color: blue;
+}
+.navAccommodation{
+    color: blue;
+}
 
 
 #logo{
     width: 25%;
 }
- 
+ /* Research */
+ .research{
+     font-size:15px ;
+     padding: 6px;
+     font-weight: bolder;
+     border: grey solid 1px;
+ }
+ .submit{
+     color: white;
+     border-radius: 0px 10px 10px 0px;
+     font-size: 15px;
+     padding: 6px;
+     padding-right: 9px;
+     background-color: blue;
+     border:#F2F2F2 ;
+ }
 /* Filters */
   
 .filterContainer {
@@ -53,6 +75,7 @@ text-decoration: overline;
 
 .list {
     display: flex;  
+    font-weight: bolder;
 }
 
 .itemList {
