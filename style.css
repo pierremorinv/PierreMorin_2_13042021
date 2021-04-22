@@ -19,6 +19,23 @@ h1{
 h3, p{
     margin: 1%;
 }
+    /* Stars */
+.star{
+    display: flex;
+   
+}
+.fullStar{
+    color: blue;
+    font-size: 13px;
+}
+
+.emptyStar{
+   margin-left: 3px;
+   font-size: 13px;
+   color: #F2F2F2;
+
+}
+
 
 
 
@@ -203,9 +220,9 @@ text-decoration: overline;
         margin-top: 0px;
         margin-left: 0px; 
         margin-right:0px;
-        border: 1px solid white;
+        border: 1px solid black;
         border-radius: 15px;
-        box-shadow:1px 1px 1px 1px;
+       
 }
 
 .margeActivities h4{
@@ -251,8 +268,11 @@ text-decoration: overline;
 }
 .inFooter li{
     list-style-type: none;
+    padding-top: 8px;
 }
 
 .inFooter ul{
     padding-left: 0px;
+    
+    font-size: 14px;
 }
