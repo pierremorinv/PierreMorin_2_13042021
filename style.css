@@ -1,8 +1,8 @@
 /* Body */
 body{
-    
+
     width: 99%;
-    
+
     font-family: 'Raleway', sans-serif;
 }
 a{
@@ -11,41 +11,41 @@ a{
 }
 
 h1{
-    font-size: 25px;
+    font-size: 24px;
 }
 .€{
     font-weight: bold;
 }
-h3, p{
-    margin: 1%;
-}
-    /* Stars */
+
+/* Stars */
 .starAccommodation{
-     display: flex;
+   display: flex;
+   
 }
-   /* stars accommodation */
-   .fullStarAccommodation{
+/* stars accommodation */
+.fullStarAccommodation{
     color: blue;
     font-size: 14px;
 }
 
 .emptyStarAccommodation{
-   
-   font-size: 14px;
-   color: #F2F2F2;
-   
+
+    margin-left: 2px;
+    font-size: 14px;
+    color: #F2F2F2;
+
 }
 /* stars popular */
 
 .StarPopular1{
-    
+
     color: blue;
     margin-top: 25%;
     font-size: 14px;
-    
+
 }
 .StarPopular2{
-    
+
     color: blue;
     margin-top: 12%;
     font-size: 14px;
@@ -54,7 +54,7 @@ h3, p{
 .StarPopular3{
     display: flex;
     color: blue;
-    margin-top: 25%;  
+    margin-top: 25%;
     font-size: 14px;
 }
 .emptyStarPopular{
@@ -62,24 +62,21 @@ h3, p{
     margin-left: 3px;
 }
 
-
-
-
 /* Header */
 .header{
     display: flex;
-    justify-content:space-between;    
+    justify-content:space-between;
 }
 .navigation{
-   display:flex;
-   list-style-type: none; 
+ display:flex;
+ list-style-type: none;
 }
 
 .navigation a{
     margin-left: 140px;
 }
 .navigation a:hover{
-text-decoration: overline;
+    text-decoration: overline;
 }
 .navRegister{
     font-weight: bolder;
@@ -89,81 +86,131 @@ text-decoration: overline;
     color: blue;
 }
 
-
-#logo{
-    width: 25%;
+/* Reservia Logo */
+#ReserviaLogo{
+    margin-left: 0%;
+    width: 23%;
 }
- /* Research */
- .research{
-     font-size:15px ;
-     padding: 6px;
-     font-weight: bolder;
-     border: grey solid 1px;
- }
- .submit{
-     color: white;
-     border-radius: 0px 10px 10px 0px;
-     font-size: 15px;
-     padding: 6px;
-     padding-right: 9px;
-     background-color: blue;
-     border:#F2F2F2 ;
- }
+/* Research */
+.research{
+   font-size:15px ;
+   padding: 14px;
+   font-weight: bolder;
+   border: #F2F2F2 solid 1px;
+   border-right: none;
+   border-left: none;  
+}
+.margeResearch{
+    margin-left: 0%;
+}
+
+.submit{
+   color: white;
+   border-radius: 0px 15px 15px 0px;
+   font-size: 15px;
+   padding: 14px;
+   padding-right: 9px;
+   background-color: blue;
+   border:#F2F2F2;
+   
+}
+/*logo research*/ 
+.fa-map-marker-alt{
+   
+   padding:14px;
+   border-radius: 15px 0px 0px 15px;
+   border: solid  #F2F2F2 1px; 
+   background-color: #F2F2F2;
+}
 /* Filters */
-  
+
 .filterContainer {
     display: flex;
     align-items: center;
 }
 
 .list {
-    display: flex;  
+    display: flex;
     font-weight: bolder;
+    
 }
 
 .itemList {
     list-style-type: none;
-    padding: 45px;    
+    padding: 30px;
+    margin-right: 10px;
 }
 
 .linkItem {
-    margin: 20px;
-    border: 3px solid #F2F2F2;
-    border-radius: 30px;
+ padding-bottom: 13px;
+ padding-top: 13px;
+ padding-right: 15px;
+ border: 1px solid #F2F2F2;
+ border-left: none;
+ border-radius:35px;
 }
 
 .linkItem:hover{
-    color: red;
+    color: white;
+    background-color:#87CEFA
+}
+/*  Filters logos */
+.fa-money-bill-wave, .fa-child,  .fa-heart, .fa-dog{
+    color: blue;
+    border-radius: 100%;
+    padding: 14px;
+    background-color:#BBD2E1;
+    
 }
 
 /* Main */
 .container {
-    display:flex; 
-    justify-content: space-around;
+    display:flex;
+    justify-content: space-between;
     height: 635px;
-    
-   
+}
+.container  h3 {
+    margin: 1%;
+}
+.container p{
+    margin: 1%;
+}
+/* information logo */
+.fa-info{
+    color: blue;
+    font-size: 10px;
+    padding-bottom:7px;
+    padding-top:7px; 
+    padding-right:10px;
+    padding-left: 10px;
+    border: #F2F2F2 solid 1px;
+    border-radius: 100%;
+
+
 }
 /* Section accommadation */
 .accommodationContainer{
-    width: 60%;
+    width: 63%;
     background-color: #F2F2F2;
     border-radius: 15px;
 }
 #accommodation{
     margin-left: 30px;
     font-size: 22px
-    
 }
+.infoAccommodation{
+    margin-left:0px;
+}
+
 .accommodationcard{
-    
+
     margin: 25px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;     
+    justify-content: space-between;
 }
 .margeAccommodation{
-    
+
     margin-top: 3px;
     margin-left: 3px;
     margin-right: 3px;
@@ -173,7 +220,7 @@ text-decoration: overline;
     border: 1px solid white;
     background-color: white;
     border-radius: 20px;
-    width: 31%;  
+    width: 31%;
 }
 .accommodationcardImg{
     width: 100%;
@@ -187,38 +234,46 @@ text-decoration: overline;
 }
 
 
-/*  the most popular */
+/*  section the most popular */
 .popularContainer {
     width: 35%;
     background-color: #F2F2F2;
     border-radius: 15px;
- }
- .popularContainer h2{
-    padding-left:4%;
- }
+}
+
+/* Logo Popular */
+.fa-chart-line{
+    font-size:20px;
+    margin-left: 45%;
+
+}
+.popularContainer h2{
+    padding-left:5%;
+
+}
 .margePopular{
     display: flex;
     margin: 4px;
-  
-  
+
+
 }
- 
+
 .popularcardContent{
     border-radius: 10px;
-   margin: 4%;
+    margin: 4%;
     background-color: white;
-    width:90%; 
-    
+    width:90%;
+
 }
 .popularcardImg{
     margin: 6px;
     margin-left: 2px;
     border-radius: 10px 0px 0px 10px;
-    width: 40%;
+    width: 38%;
     height: 155px;
 }
 .popularcardInformation{
-    padding-left: 4%;
+    padding-left: 3%;
 }
 
 /* Section Activities */
@@ -227,13 +282,13 @@ text-decoration: overline;
 }
 .containerActivity{
     max-width: 100%;
-    
+
 }
-.activity{ 
+.activity{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 2%;    
+    margin-bottom: 2%;
 }
 
 .activitycard{
@@ -241,14 +296,14 @@ text-decoration: overline;
     border-radius: 15px;
     border: 1px solid white;
 }
-    
+
 .margeActivities{
-        margin-top: 0px;
-        margin-left: 0px; 
-        margin-right:0px;
-        border: 1px solid black;
-        border-radius: 15px;
-       
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right:0px;
+    border: 1px solid black;
+    border-radius: 15px;
+
 }
 
 .margeActivities h4{
@@ -272,33 +327,35 @@ text-decoration: overline;
     width: 100%;
     height: 120px;
     border-radius: 15px 15px 0px 0px;
-   
+
 }
 
 .activitiescardImg4{
     width: 100%;
     height: 156px;
     border-radius: 15px 15px 0px 0px;
-   
+
 }
 /* footer */
 .footer{
-    
+
     margin-top: 6%;
     display:flex;
     justify-content:space-between;
+    align-items: flex-start;
     border: 2px #F2F2F2;
     background-color: #F2F2F2;
-}
-.inFooter{
+
 }
 .inFooter li{
     list-style-type: none;
     padding-top: 8px;
+    
 }
 
 .inFooter ul{
     padding-left: 0px;
-    
     font-size: 14px;
+    list-style-type: none;
+    
 }
