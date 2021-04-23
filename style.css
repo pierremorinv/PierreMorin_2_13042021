@@ -290,7 +290,7 @@ h1{
 .activity{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-between;
     margin-bottom: 2%;
    
     
