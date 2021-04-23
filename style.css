@@ -12,10 +12,12 @@ a{
 
 h1{
     font-size: 24px;
+    margin-left: 2%;
 }
 
 .€{
     font-weight: bold;
+    
 }
 
 /* Stars */
@@ -97,10 +99,14 @@ h1{
 /* Reservia Logo */
 
 #ReserviaLogo{
-    margin-left: 0%;
+    
     width: 23%;
 }
 
+.margeReservia{
+    margin-left: 2%;
+    
+}
 /* Research */
 
 .research{
@@ -113,7 +119,7 @@ h1{
 }
 
 .margeResearch{
-   margin-left: 0%;
+   margin-left: 2%;
 }
 
 .submit{
@@ -139,6 +145,7 @@ h1{
 .filterContainer {
     display: flex;
     align-items: center;
+    padding-left: 2%;
 }
 
 .list {
@@ -218,7 +225,7 @@ h1{
 }
 
 .infoAccommodation{
-   padding-bottom: 2%;
+   padding-left:2%;
 }
 
 .accommodationcard{
@@ -297,7 +304,7 @@ h1{
 
 #activities{   
     padding-top: 2%;
-    padding-left: 1%;
+    padding-left: 2%;
 }
 
 
@@ -362,7 +369,8 @@ h1{
     background-color: #F2F2F2;
 }
 .inFooter{
-    margin-right:23%;    
+    margin-right:21%; 
+    margin-left: 2%;   
 }
 .inFooter li{
     list-style-type: none;
