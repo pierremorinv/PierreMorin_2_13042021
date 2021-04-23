@@ -179,7 +179,7 @@ h1{
 
 .container {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 635px;
 }
 
@@ -256,7 +256,7 @@ h1{
 /*  section the most popular */
 
 .popularContainer {
-    width: 35%;
+    width: 32%;
     background-color: #F2F2F2;
     border-radius: 15px;
 }
@@ -264,7 +264,7 @@ h1{
 /* Logo Popular */
 .fa-chart-line{
     font-size:20px;
-    margin-left: 45%;
+    margin-left: 42%;
 }
 
 .popularContainer h2{
@@ -297,12 +297,14 @@ h1{
 
 #activities{   
     padding-top: 2%;
+    padding-left: 1%;
 }
+
 
 .activity{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 2%;  
 }
 
