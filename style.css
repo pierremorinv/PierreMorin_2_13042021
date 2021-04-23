@@ -345,7 +345,10 @@ h1{
     align-items: flex-start;
     border: 2px #F2F2F2;
     background-color: #F2F2F2;
-
+}
+.inFooter{
+    margin-right:23%;
+    
 }
 .inFooter li{
     list-style-type: none;
