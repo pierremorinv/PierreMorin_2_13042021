@@ -136,7 +136,6 @@ h1{
 .fa-map-marker-alt{
    padding:14px;
    border-radius: 15px 0px 0px 15px;
-   border: solid  #F2F2F2 1px; 
    background-color: #F2F2F2;
 }
 
@@ -243,7 +242,6 @@ h1{
 
 .accommodationcardContent{
     margin-bottom: 2%;
-    border: 1px solid white;
     background-color: white;
     border-radius: 20px;
     width: 31%;
@@ -332,7 +330,7 @@ h1{
 .margeActivities h4{
     padding-left: 5%;
     padding-bottom: 3%;
-    font-weight: 16px;
+    
 }
 
 /* Pictures activities */
@@ -365,7 +363,6 @@ h1{
     display:flex;
     justify-content:space-between;
     align-items: flex-start;
-    border: 2px #F2F2F2;
     background-color: #F2F2F2;
 }
 .inFooter{
