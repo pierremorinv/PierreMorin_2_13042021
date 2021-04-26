@@ -484,8 +484,13 @@ body{
    
 }
 .navigation a{
-margin-left: 0px;
+margin-left: 0%;
+display:block;
+justify-content: space-between;
+
+
 }
+
 .navigation ul{
     display: flex;
     justify-content: space-between;
@@ -493,7 +498,7 @@ margin-left: 0px;
     
 }
 #ReserviaLogo {
-    width: 100%;
+    min-width: 100%;
    
 }
 .margeResearch{
