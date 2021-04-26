@@ -393,6 +393,7 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    overflow-wrap: break-word;
 }
 
 
@@ -446,7 +447,7 @@ body{
 }
 .infoAccommodation{
     width: 95%;
-    overflow-wrap: break-word;
+    
  }
 
 .filterContainer{
@@ -471,7 +472,31 @@ body{
     margin-left: 21%;
     
 }
-#ReserviaLogo{
+.header{
+    
+   display: flex;
+  
+
+}
+.navigation{
+    flex-direction: row-reverse;
+    display: flex;
+   
+}
+.navigation a{
+margin-left: 0px;
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+#ReserviaLogo {
     width: 100%;
+   
+}
+.margeResearch{
+    margin-left: 0%;
 }
  }
