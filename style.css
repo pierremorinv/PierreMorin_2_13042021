@@ -410,7 +410,6 @@ body{
 .accommodationContainer{
     width: 100%;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     background-color: white;
 
@@ -422,7 +421,7 @@ body{
 .containerActivity{
     width: 100%;
     display: flex;
-    justify-content: center;
+    
     flex-wrap: wrap;
 
 }
@@ -501,7 +500,5 @@ justify-content: space-between;
     min-width: 100%;
    
 }
-.margeResearch{
-    margin-left: 0%;
-}
+
  }
