@@ -186,7 +186,7 @@ h1{
 .container {
     display:flex;
     justify-content: space-around;
-    height: 635px;
+    
 }
 
 .container  h3 {
@@ -383,3 +383,95 @@ h1{
 .inFooter h4{
     margin-bottom:1%
 }
+
+
+/* Mobile Version */
+@media screen and (max-width:480px)
+ {
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.container{
+    flex-direction: column-reverse;
+    width: 100%;
+    
+    
+}
+.popularContainer{
+    width: 100%;
+    margin-bottom: 10%;
+}
+.accommodationContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+
+}
+.accommodationcardContent{
+    width: 100%;
+    
+}
+.containerActivity{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.activitycard{
+    width: 100%;
+    
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.inFooter{
+    margin-left: 10%;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.infoAccommodation{
+    width: 95%;
+    overflow-wrap: break-word;
+ }
+
+.filterContainer{
+
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.filterContainer h2{
+    font-size: 20px;
+    margin-left: 12%;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.itemList{
+    padding: 0px;
+    padding-bottom: 4%;
+}
+.fa-chart-line{
+    margin-left: 21%;
+    
+}
+#ReserviaLogo{
+    width: 100%;
+}
+ }
