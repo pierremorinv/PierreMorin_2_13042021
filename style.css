@@ -85,10 +85,16 @@ h1{
 
 .navigation a{
     margin-left: 140px;
+    padding-top: 20px;
+    
+    
 }
 
 .navigation a:hover{
-    text-decoration: overline;
+    border-top: blue solid 2px;
+    padding-left: 25px;
+    padding-right:25px;
+   
 }
 
 .navRegister{
