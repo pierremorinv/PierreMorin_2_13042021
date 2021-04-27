@@ -24,6 +24,7 @@ h1{
 
 .starAccommodation{
    display: flex;
+   margin-left: 2%;
 }
 
 /* stars accommodation */
@@ -31,6 +32,7 @@ h1{
 .fullStarAccommodation{
     color: blue;
     font-size: 14px;
+    margin-left: 2px;
 }
 
 .emptyStarAccommodation{
@@ -50,9 +52,11 @@ h1{
 .StarPopular2{
 
     color: blue;
-    margin-top: 12%;
+   
+    margin-top: 21%;
     font-size: 14px;
     display: flex;
+    margin-left: 4px;
 }
 
 .StarPopular3{
@@ -60,11 +64,12 @@ h1{
     color: blue;
     margin-top: 25%;
     font-size: 14px;
+    margin-left: 4px;
 }
 
 .emptyStarPopular{
     color: #F2F2F2;
-    margin-left: 3px;
+    margin-left: 4px;
 }
 
 /* Header */
@@ -162,7 +167,7 @@ h1{
  padding-bottom: 13px;
  padding-top: 13px;
  padding-right: 15px;
- border: 1px solid #F2F2F2;
+ border: 2px solid #F2F2F2;
  border-left: none;
  border-radius:35px;
 }
@@ -213,7 +218,7 @@ h1{
 /* Section accommadation */
 
 .accommodationContainer{
-    width: 63%;
+    width: 61%;
     background-color: #F2F2F2;
     border-radius: 15px;
 }
@@ -228,33 +233,37 @@ h1{
 }
 
 .accommodationcard{
-    margin: 25px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .margeAccommodation{
-    margin-top: 3px;
-    margin-left: 3px;
-    margin-right: 3px;
+    margin: 2%;
 }
 
 .accommodationcardContent{
     margin-bottom: 2%;
     background-color: white;
     border-radius: 20px;
-    width: 31%;
+    width: 28%;
+    
 }
 .accommodationcardImg{
     width: 100%;
-    height: 135px;
+    height: 130px;
     border-radius: 15px;
+}
+.accommodationcardInformation p, h3{
+    padding-bottom: 2%;
+    padding-left: 2%;
+
+    
 }
 
 .add-more{
-    margin-left: 5%;
-    margin-bottom: 3%;
+    font-size: 18px;
+    margin-left:4% 
 }
 
 
@@ -269,7 +278,7 @@ h1{
 /* Logo Popular */
 .fa-chart-line{
     font-size:20px;
-    margin-left: 42%;
+    margin-left: 39%;
 }
 
 .popularContainer h2{
@@ -288,14 +297,15 @@ h1{
     width:90%;
 }
 .popularcardImg{
-    margin: 6px;
-    margin-left: 2px;
+    margin: 1.2%;
+    margin-left: 0.6%;
     border-radius: 10px 0px 0px 10px;
     width: 34%;
     height: 155px;
 }
 .popularcardInformation{
-    padding-left: 3%;
+    padding-top: 2%;
+    padding-left: 4%;
 }
 
 /* Section Activities */
