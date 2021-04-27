@@ -135,6 +135,7 @@ h1{
     border: #F2F2F2 solid 1px;
     border-right: none;
     border-left: none;  
+    
  }
  
  
@@ -150,7 +151,7 @@ h1{
  
  /*logo research*/ 
  .fa-map-marker-alt{
-    padding:14px;
+    padding:15px;
     border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
  }
@@ -260,7 +261,8 @@ h1{
 }
 
 .accommodationcardContent:hover{
-    box-shadow:0px 6px 15px 5px rgba(44,44,44,0.43)
+    box-shadow:5px 5px 7px 0px #989898;
+    
 }
 
 .accommodationcardImg{
@@ -311,7 +313,7 @@ h1{
     width:90%;
 }
 .popularcardContent:hover{
-    box-shadow:0px 6px 15px 5px rgba(44,44,44,0.43)
+    box-shadow:5px 5px 7px 0px #989898;
 }
 
 
@@ -358,7 +360,7 @@ h1{
 }
 
 .margeActivities:hover{
-    box-shadow:0px 6px 15px 5px rgba(44,44,44,0.43)
+    box-shadow:5px 5px 7px 0px #989898;
     
 }
 
