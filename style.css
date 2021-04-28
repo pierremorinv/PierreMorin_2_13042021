@@ -184,28 +184,31 @@ h1{
      display: flex;
      font-weight: bolder;
      
+     
+     
  }
  
  .itemList {
      list-style-type: none;
-     padding-right: 30px;
-     
- }
+     padding-right: 20px;
+     border: 2px solid #F2F2F2;
+     border-radius:35px;
+     border-left: none;
+     margin-left: 28px;
+}
+
+ .itemList:hover{
+    color: white;
+    background-color:#9bd2f5
+}
  
  .linkItem {
   font-size: 18px;
-  padding-bottom: 13px;
-  padding-top: 13px;
-  padding-right: 15px;
-  border: 2px solid #F2F2F2;
-  border-left: none;
-  border-radius:35px;
+  
+ 
  }
  
- .linkItem:hover{
-     color: white;
-     background-color:#9bd2f5
- }
+
  /* information logo */
  
  .fa-info{
@@ -223,11 +226,20 @@ h1{
  /*  Filters logos */
  
  .fa-money-bill-wave, .fa-child,  .fa-heart, .fa-dog{
+     font-size: 18px;
      color: #0065fc;
      border-radius: 100%;
-     padding: 14px;
+     padding: 13px;
      background-color:#d1deee;  
+     margin-right: 10px;
  }
+
+ .fa-child{
+     padding-left:15px;
+     padding-right:15px ;
+ }
+
+
  
  /* Main */
  
@@ -341,12 +353,11 @@ h1{
     margin-left: 0.6%;
     border-radius: 10px 0px 0px 10px;
     width: 36%;
-    height: 150px;
-    object-fit: cover;
+    height: 155px;
 }
 .popularcardInformation{
     padding-top: 2%;
-    padding-left: 4%;
+    padding-left:4%;
 }
 
 /* Section Activities */
