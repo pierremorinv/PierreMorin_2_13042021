@@ -1,7 +1,5 @@
 
-
-    
-/* Body */
+    /* Body */
 
 body{
     font-family: 'Raleway', sans-serif;
@@ -326,8 +324,11 @@ h1{
 
 /* Logo Popular */
 .fa-chart-line{
+    float: right;
     font-size:20px;
-    margin-left: 39%;
+    margin-right: 7%;
+    margin-top: 0%;
+    
 }
 
 .popularContainer h2{
@@ -463,10 +464,12 @@ h1{
 .inFooter1 h4, .inFooter2 h4, .inFooter3 h4{
     margin-bottom:1%
 }
+
+
 /* //////////////////Responsive///////////////////////// */
 
 /* Mobile Version */
-@media screen and (max-width:480px)
+@media screen and (max-width:767px)
  {
 body{
     width: 100%;
@@ -480,12 +483,14 @@ body{
 .container{
     flex-direction: column-reverse;
     width: 100%;
-    
-    
 }
 .popularContainer{
-    width: 100%;
+    margin-left: 8%;
+    width: 93%;
     margin-bottom: 10%;
+}
+.popularcardContent{  
+    margin-bottom: 6%;
 }
 .accommodationContainer{
     width: 100%;
@@ -495,7 +500,8 @@ body{
 
 }
 .accommodationcardContent{
-    width: 100%;
+    width: 90%;
+    
     
 }
 .containerActivity{
