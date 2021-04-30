@@ -475,6 +475,7 @@ h1{
 /* Mobile Version */
 @media screen and (max-width:767px)
  {
+
 body{
     width: 100%;
     display: flex;
@@ -482,8 +483,6 @@ body{
     flex-wrap: wrap;
     overflow-wrap: break-word;
 }
-
-
 .container{
     flex-direction: column-reverse;
     width: 100%;
