@@ -3,9 +3,7 @@
  {
  /* Body */
 
-body{
-  
-}
+
 
 /* Header */
 .header{
@@ -17,6 +15,7 @@ body{
  .navigation{
      flex-direction: row-reverse;
      display: flex; 
+     flex-wrap: wrap-reverse;
  }
  .navigation a{
     margin-left: 0%;
@@ -59,10 +58,7 @@ body{
     flex-wrap: wrap;
     text-align: left;
 }
-.filterContainer h2{
-    
-    
-}
+
 .list{
     display: flex;
     flex-wrap: wrap;
@@ -145,4 +141,3 @@ body{
     margin-left: 6%;
 }
 
-   }
