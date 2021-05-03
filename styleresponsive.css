@@ -1,65 +1,59 @@
 /* Mobile Version */
 @media screen and (max-width:767px)
  {
+ /* Body */
 
 body{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    overflow-wrap: break-word;
+  
 }
-.container{
-    flex-direction: column-reverse;
-    width: 100%;
-}
-.popularContainer{
-    margin-left: 8%;
-    width: 93%;
-    margin-bottom: 10%;
-}
-.popularcardContent{  
-    margin-bottom: 6%;
-}
-.accommodationContainer{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: white;
 
-}
-.accommodationcardContent{
-    width: 90%;
+/* Header */
+.header{
     
+     display: flex;
+     flex-wrap: wrap;
+   
+ }
+ .navigation{
+     flex-direction: row-reverse;
+     display: flex; 
+ }
+ .navigation a{
+    margin-left: 0%;
+     display:block;
+     justify-content: space-between;
+ 
+ }
+ 
+ .navigation ul{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;   
+ }
+ #ReserviaLogo {
+     min-width: 100%;
     
-}
-.containerActivity{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+ }
 
-}
-.activitycard{
-    width: 100%;
-    
-}
-.footer{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+ /* Research */
 
+ .submit{
+     display: none;
+ }
+.fa-search{
+    background-color: #0065fc;
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: -5%;
 }
-.inFooter{
-    margin-left: 10%;
-    width: 100%;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+ 
+ }
+ .margeResearch{
+    margin-bottom: 2%;
+ }
 
-.filterContainer{
+ /* Filters */
+ .filterContainer{
 
     display: flex;
     flex-wrap: wrap;
@@ -72,43 +66,83 @@ body{
 .list{
     display: flex;
     flex-wrap: wrap;
+    padding-left: 0%;
+    margin-right: 3%;
+    
 }
 .itemList{
     padding: 0px;
-    padding-bottom: 4%;
+    padding-right: 5%;
+    margin-bottom: 4%;
+    margin-left: 0%;
+    margin-right: 2%;
 }
-.fa-chart-line{
-    margin-left: 21%;
+
+
+.container{
+    flex-direction: column-reverse;
+    width: 100%;
+}
+
+/* Popular  */
+
+.popularContainer{
     
-} 
-.header{
+    width: 100%;
+    border-radius: 0%;
     
-   display: flex;
-  
-
 }
-.navigation{
-    flex-direction: row-reverse;
+.popularcardContent{  
+    margin-bottom: 6%;
+}
+
+/* Accommodation */
+
+.accommodationContainer{
+    width: 100%;
     display: flex;
-   
+    flex-wrap: wrap;
+    background-color: white;
 }
-.navigation a{
-margin-left: 0%;
-display:block;
-justify-content: space-between;
-
-
+.accommodationcardContent{
+    width: 90%;     
 }
+/* Activity */
 
-.navigation ul{
+.containerActivity{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.activitycard{
+    width: 100%;
+    
+}
+
+/* Footer */
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
     
+
 }
-#ReserviaLogo {
-    min-width: 100%;
-   
+
+.inFooter{
+    margin-left: 10%;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.inFooter1, .inFooter2, .inFooter3{
+    margin-left: 6%;
 }
 
    }
