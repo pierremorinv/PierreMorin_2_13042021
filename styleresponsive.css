@@ -90,6 +90,7 @@
 }
 .popularcardContent{  
     margin-bottom: 6%;
+    box-shadow:5px 5px 7px 0px #989898;
 }
 
 /* Accommodation */
@@ -102,6 +103,7 @@
 }
 .accommodationcardContent{
     width: 90%;     
+    box-shadow:5px 5px 7px 0px #989898;
 }
 /* Activity */
 
@@ -112,8 +114,11 @@
 
 }
 .activitycard{
-    width: 100%;
-    
+    width: 100%;   
+}
+
+.margeActivities{
+    box-shadow:5px 5px 7px 0px #989898;
 }
 
 /* Footer */
