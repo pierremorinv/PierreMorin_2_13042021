@@ -21,7 +21,17 @@ h1{
 .€{
     font-weight: bold; 
 }
+/* Responsive part */
 
+.headerMobile{
+    display: none;
+}
+.navigationMobile{
+    display: none;
+}
+.fa-search{
+    display: none;
+}
 /* Stars */
 
 .starAccommodation{
@@ -131,7 +141,6 @@ h1{
 
 /* Research */
 .margeResearch{
-    margin-top: 1%;
     margin-bottom: 1%;
 
 }

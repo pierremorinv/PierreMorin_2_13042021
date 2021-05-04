@@ -6,33 +6,39 @@
 
 
 /* Header */
+
 .header{
-    
-     display: flex;
-     flex-wrap: wrap;
+     display: none;
    
  }
- .navigation{
-     flex-direction: row-reverse;
-     display: flex; 
-     flex-wrap: wrap-reverse;
- }
- .navigation a{
-    margin-left: 0%;
-     display:block;
+ .headerMobile{
+     display:flex;
      justify-content: space-between;
+     align-items: center;
+ }
+
  
  }
- 
- .navigation ul{
+
+ .navigationMobile{
      display: flex;
-     justify-content: space-between;
-     flex-wrap: wrap;   
+    justify-content: space-around;
+    margin: 0%;
+    padding: 0%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-decoration: none;
  }
- #ReserviaLogo {
-     min-width: 100%;
-    
+ .navigationMobile a{
+    padding-right:0%;
+    margin-left: 0%;
+    text-decoration: none;
  }
+
+ li{
+     list-style-type:none;
+    }
+
 
  /* Research */
 .fa-map-marker-alt{
@@ -52,12 +58,13 @@
     font-size: 17px;
     padding: 0px;
     padding-top:15px;
-    padding-bottom: 15px;
+    padding-bottom: 14px;
+    padding-left: 30px;
+    margin-left: -1%;
 }
- }
+ 
  .margeResearch{
     margin-bottom: 1%;
-    margin-right: 6%;
  }
  .margeResearchP{
      margin-bottom: 4%;
