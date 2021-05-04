@@ -23,15 +23,10 @@ h1{
 }
 /* Responsive part */
 
-.headerMobile{
+.DesktopVersionNone{
     display: none;
 }
-.navigationMobile{
-    display: none;
-}
-.fa-search{
-    display: none;
-}
+
 /* Stars */
 
 .starAccommodation{

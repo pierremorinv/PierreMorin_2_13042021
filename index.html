@@ -32,10 +32,10 @@
     </header> 
     <!-- ////////////////////////////Mobile////////////////////////////////////////// -->
     <!-- Header Mobile -->
-    
+    <section class="DesktopVersionNone"> 
     <div class="headerMobile"> 
         <p class="ReserviaLogoMobile"> 
-            <img id="ReserviaLogo"
+            <img id="ReserviaLogoMobileImg"
              src="reservia/images/logo/Reservia@3x.png" 
              alt="reservia-logo">
            </p>
@@ -46,7 +46,7 @@
         <a class="navAccommodation" href="#accommodation">Hébergements</a>
         <a class="navActivitity" href="#activities">Activités</a>
     </div>
-   
+</section>
 <!--///////////////////////////////Mobile//////////////////////////////////////////////// -->
     <div class="Research"> 
     <!-- Research  -->
@@ -57,7 +57,7 @@
             <i class="fas fa-map-marker-alt"> </i>   
             <input class="research" type="text" name="Marseille" value="Marseille, France" />
             <input class="submit" type="submit" value="Rechercher" />
-            <i class="fas fa-search"></i>    
+      <div class="DesktopVersionNone"> <i class="fas fa-search"></i>  </div> 
     </form> 
     </div>
     <!-- Filters -->
@@ -79,12 +79,12 @@
          <i class="fas fa-info">
               </i> Plus de 500 logements sont disponibles dans cette ville </p>
 
-            </div>
+           
 
     <!-- Accomodation in Marseille -->
 
     <section class="container">
-        <section class="accommodationContainer">
+        <div class="accommodationContainer">
             <h2 id="accommodation">Hébergements à Marseille</h2>
             <div class="accommodationcard"> 
                 <article class="accommodationcardContent"> 
@@ -237,10 +237,10 @@
 
             </div>
             <h4 class="add-more"> <a href="">Afficher plus</a></h4>
-        </section>
+        </div>
         <!-- the most popular -->
 
-        <section class="popularContainer">              
+        <div class="popularContainer">              
                 <h2>Les plus populaires  
                    <i class="fas fa-chart-line"> </i> </h2> 
                    
@@ -319,8 +319,7 @@
                 </figure>
             </a>  
         </article>
-    
-</section>
+    </div>
 </section> 
 
 
@@ -330,7 +329,7 @@
 
 
 
-<div class="containerActivity">   
+<section class="containerActivity">   
     <h2 id="activities"> Activités à Marseille</h2>
     <div class="activity">
       <article class="activitycard"> 
@@ -410,7 +409,7 @@
 </a>
 </article>
 </div>
-</div>
+</section>
 </section>
 <!-- Footer -->
 <footer class="footer"> 

@@ -6,10 +6,14 @@
 
 
 /* Header */
-
+.DesktopVersionNone{
+    display: initial; 
+}
 .header{
     display: none;
-   
+ }
+ #ReserviaLogoMobileImg{
+     width: 39%;
  }
  .headerMobile{
     display:flex;
@@ -27,21 +31,22 @@
     
  }
  .navAccommodation{
-     border-bottom:solid 2px #f2f2f2;
+     
      padding-left:9%;
      padding-bottom:6%;
      padding-right:9%;
+     border-bottom: solid 3px #0065fc;
      
  }
- .navAccommodation:hover{
-         border-bottom: solid 1px #0065fc;
- }
+ 
  .navActivitity{
-     border-bottom:solid 2px #f2f2f2;
-     padding-left:17%;
+     border-bottom:solid 3px #f2f2f2;
+     padding-left:16%;
      padding-bottom:6%;
-     padding-right: 12%;
-
+     padding-right: 15%;
+ }
+ .navActivitity:hover{
+    border-bottom: solid 3px #0065fc
  }
  li{
      list-style-type:none;
