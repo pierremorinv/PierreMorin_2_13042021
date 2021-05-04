@@ -35,20 +35,32 @@
  }
 
  /* Research */
-
+.fa-map-marker-alt{
+    padding: 18px;
+}
  .submit{
      display: none;
  }
 .fa-search{
     background-color: #0065fc;
-    padding: 15px;
+    padding: 18px;
     border-radius: 15px;
     margin-left: -5%;
+    color: #f2f2f2;
 }
- 
+.research{
+    font-size: 17px;
+    padding: 0px;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
  }
  .margeResearch{
-    margin-bottom: 2%;
+    margin-bottom: 1%;
+    margin-right: 6%;
+ }
+ .margeResearchP{
+     margin-bottom: 4%;
  }
 
  /* Filters */
@@ -58,12 +70,16 @@
     flex-wrap: wrap;
     text-align: left;
 }
+.filterContainer h2{
+    margin-bottom: 1%;
+}
 
 .list{
     display: flex;
     flex-wrap: wrap;
     padding-left: 0%;
     margin-right: 3%;
+  
     
 }
 .itemList{
@@ -72,6 +88,10 @@
     margin-bottom: 4%;
     margin-left: 0%;
     margin-right: 2%;
+}
+
+.linkItem{
+    font-size: 15px;
 }
 
 
