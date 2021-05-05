@@ -1,5 +1,4 @@
-@media all and (min-width: 1025px) and (max-width: 1920px)
-{ 
+ 
     /* Body */
 
     body{
@@ -205,12 +204,11 @@
 }
 
 .itemList:hover{
-    color: white;
-    background-color:#9bd2f5
+    background-color:#9bd2f5;
 }
 
 .linkItem {
-  font-size: 18px;
+  font-size: 17px;
   
   
 }
@@ -478,7 +476,7 @@
 .inFooter1 h4, .inFooter2 h4, .inFooter3 h4{
     margin-bottom:1%
 }
-}
+
 /*/////////////////////////////////////////////////////////// */
 
 /* Mobile Version */
