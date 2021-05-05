@@ -1,43 +1,44 @@
+@media all and (min-width: 1025px) and (max-width: 1920px)
+{ 
+    /* Body */
 
-/* Body */
+    body{
+        font-family: 'Raleway', sans-serif;
+    }
+    .allContent{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 
-body{
-    font-family: 'Raleway', sans-serif;
-}
-.allContent{
-    margin-left: 2%;
-    margin-right: 2%;
-}
+    a{
+        text-decoration:none;
+        color:black ;
+    }
 
-a{
-    text-decoration:none;
-    color:black ;
-}
+    h1{
+        font-size: 24px;   
+    }
 
-h1{
-    font-size: 24px;   
-}
+    .€{
+        font-weight: bold; 
+    }
+    /* Responsive part */
 
-.€{
-    font-weight: bold; 
-}
-/* Responsive part */
+    .DesktopVersionNone{
+        display: none;
+    }
 
-.DesktopVersionNone{
-    display: none;
-}
+    /* Stars */
 
-/* Stars */
+    .starAccommodation{
+       display: flex;
+       margin-left: 2%;
+       padding-bottom: 2%;
+   }
 
-.starAccommodation{
- display: flex;
- margin-left: 2%;
- padding-bottom: 2%;
-}
+   /* stars accommodation */
 
-/* stars accommodation */
-
-.fullStarAccommodation{
+   .fullStarAccommodation{
     color: #0065fc;
     font-size: 14px;
     margin-left: 2px;
@@ -93,8 +94,8 @@ h1{
 /* Navigation */
 
 .navigation{
-   display:flex;
-   list-style-type: none;
+ display:flex;
+ list-style-type: none;
 }
 
 .navigation a{
@@ -160,7 +161,7 @@ h1{
     border:#F2F2F2; 
 }
 .fa-search{
-   display: none;
+ display: none;
 }
 /*logo research*/ 
 .fa-map-marker-alt{
@@ -169,37 +170,38 @@ h1{
     background-color: #F2F2F2;
 }
 .fa-search{
-   display: none;
+ display: none;
 }
 
 /* Filters */
 
 .filterContainer {
-   display: flex;
-   align-items: center;
-   
+ display: flex;
+ align-items: center;
+ 
 }
 
 .filterContainer h2{
-   font-size: 20px;
+ font-size: 20px;
 }
 
 
 .list {
-   display: flex;
-   font-weight: bolder;
-   
-   
-   
+ display: flex;
+ font-weight: bolder;
+ padding-left: 0px;
+ 
+ 
+ 
 }
 
 .itemList {
-   list-style-type: none;
-   padding-right: 20px;
-   border: 2px solid #F2F2F2;
-   border-radius:35px;
-   border-left: none;
-   margin-left: 28px;
+ list-style-type: none;
+ padding-right: 20px;
+ border: 2px solid #F2F2F2;
+ border-radius:35px;
+ border-left: none;
+ margin-left: 20px;
 }
 
 .itemList:hover{
@@ -231,17 +233,17 @@ h1{
 /*  Filters logos */
 
 .fa-money-bill-wave, .fa-child,  .fa-heart, .fa-dog{
-   font-size: 18px;
-   color: #0065fc;
-   border-radius: 100%;
-   padding: 13px;
-   background-color:#d1deee;  
-   margin-right: 10px;
+ font-size: 18px;
+ color: #0065fc;
+ border-radius: 100%;
+ padding: 13px;
+ background-color:#d1deee;  
+ margin-right: 10px;
 }
 
 .fa-child{
-   padding-left:15px;
-   padding-right:15px ;
+ padding-left:15px;
+ padding-right:15px ;
 }
 
 
@@ -249,17 +251,17 @@ h1{
 /* Main */
 
 .container {
-   display:flex;
-   justify-content: space-between;
-   
+ display:flex;
+ justify-content: space-between;
+ 
 }
 
 .container  h3 {
-   margin: 1%;
+ margin: 1%;
 }
 
 .container p{
-   margin: 1%;
+ margin: 1%;
 }
 
 
@@ -476,7 +478,7 @@ h1{
 .inFooter1 h4, .inFooter2 h4, .inFooter3 h4{
     margin-bottom:1%
 }
-
+}
 /*/////////////////////////////////////////////////////////// */
 
 /* Mobile Version */
@@ -492,9 +494,9 @@ h1{
         display: none;
     }
     #ReserviaLogoMobileImg{
-       width: 39%;
-   }
-   .headerMobile{
+     width: 39%;
+ }
+ .headerMobile{
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -509,18 +511,18 @@ h1{
     
 }
 .navAccommodation{
-   
-   padding-left:9%;
-   padding-bottom:6%;
-   padding-right:9%;
-   border-bottom: solid 3px #0065fc;    
+ 
+ padding-left:9%;
+ padding-bottom:6%;
+ padding-right:9%;
+ border-bottom: solid 3px #0065fc;    
 }
 
 .navActivitity{
-   border-bottom:solid 3px #f2f2f2;
-   padding-left:16%;
-   padding-bottom:6%;
-   padding-right: 15%;
+ border-bottom:solid 3px #f2f2f2;
+ padding-left:16%;
+ padding-bottom:6%;
+ padding-right: 15%;
 }
 
 .navActivitity:hover{
@@ -528,7 +530,7 @@ h1{
 }
 
 li{
-   list-style-type:none;
+ list-style-type:none;
 }
 
 /* Research */
@@ -538,7 +540,7 @@ li{
 }
 
 .submit{
-   display: none;
+ display: none;
 }
 
 .fa-search{
@@ -550,10 +552,10 @@ li{
 }
 
 .ResearchButton{
- border:none; 
- border-radius: 15px;
- padding: 0px;
- margin-left: -5%;
+   border:none; 
+   border-radius: 15px;
+   padding: 0px;
+   margin-left: -5%;
 }
 
 .research{
@@ -571,7 +573,7 @@ li{
 }
 
 .margeResearchP{
-   margin-bottom: 4%;
+ margin-bottom: 4%;
 }
 
 /* Filters */
@@ -726,10 +728,7 @@ li{
     .add-more{
         padding-bottom: 3%;
     }
-    .popularcardContent{
-      
-    }
-
+    
     /* Activity part */
 
 
