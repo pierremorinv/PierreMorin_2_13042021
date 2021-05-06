@@ -140,7 +140,7 @@
 
 }
 .research{
-    font-size:15px ;
+    font-size:17px ;
     padding: 13px;
     font-weight: bolder;
     border: #F2F2F2 solid 1px;
@@ -154,7 +154,7 @@
 .submit{
     color: white;
     border-radius: 0px 15px 15px 0px;
-    font-size: 15px;
+    font-size: 17px;
     padding: 14px;
     padding-right: 25px;
     background-color: #0065fc;
@@ -166,10 +166,10 @@
 }
 /*logo research*/ 
 .fa-map-marker-alt{
-    padding-left: 16px;
-    padding-top: 14px;
-    padding-bottom:16px;
-    padding-right: 21px;
+    padding-left: 18px;
+    padding-top: 16px;
+    padding-bottom:17px;
+    padding-right: 27px;
     border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
 }
@@ -694,6 +694,9 @@ li{
         font-size: 14px;
         padding-right: 13px;
         
+    }
+    .fa-map-marker-alt{
+        padding-right:20px;
     }
 
     .itemList{
