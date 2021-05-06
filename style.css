@@ -156,7 +156,7 @@
     border-radius: 0px 15px 15px 0px;
     font-size: 15px;
     padding: 14px;
-    padding-right: 15px;
+    padding-right: 25px;
     background-color: #0065fc;
     border:#F2F2F2; 
     margin-left:-2%;
@@ -169,7 +169,7 @@
     padding-left: 16px;
     padding-top: 14px;
     padding-bottom:16px;
-    padding-right: 20px;
+    padding-right: 21px;
     border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
 }
@@ -186,7 +186,7 @@
 }
 
 .filterContainer h2{
- font-size: 20px;
+ font-size: 17px
 }
 
 
@@ -209,13 +209,11 @@
 }
 
 .itemList:hover{
-    background-color:#9bd2f5;
+background-color:#9bd2f5;
 }
 
 .linkItem {
   font-size: 17px;
-  
-  
 }
 
 
@@ -510,6 +508,7 @@
     justify-content: space-between;
     margin: 0%;
     padding-bottom: 5%;
+   
     
     
 }
