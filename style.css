@@ -141,11 +141,12 @@
 }
 .research{
     font-size:15px ;
-    padding: 14px;
+    padding: 13px;
     font-weight: bolder;
     border: #F2F2F2 solid 1px;
     border-right: none;
-    border-left: none;  
+    border-left: none; 
+    margin-left: -1%;; 
     
 }
 
@@ -158,13 +159,16 @@
     padding-right: 15px;
     background-color: #0065fc;
     border:#F2F2F2; 
+    margin-left:-2%;
 }
 .fa-search{
  display: none;
 }
 /*logo research*/ 
 .fa-map-marker-alt{
-    padding:15px;
+    padding: 15px;
+    padding-top: 14px;
+    padding-bottom:16px;
     border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
 }
@@ -534,7 +538,7 @@ li{
 /* Research */
 
 .fa-map-marker-alt{
-    padding: 18px;
+    padding: 17px;
 }
 
 .submit{
