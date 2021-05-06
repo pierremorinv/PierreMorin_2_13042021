@@ -166,9 +166,10 @@
 }
 /*logo research*/ 
 .fa-map-marker-alt{
-    padding: 15px;
+    padding-left: 16px;
     padding-top: 14px;
     padding-bottom:16px;
+    padding-right: 20px;
     border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
 }
@@ -564,9 +565,9 @@ li{
     font-size: 17px;
     padding: 0px;
     padding-top:14px;
-    padding-bottom: 14px;
+    padding-bottom: 13px;
     padding-left: 30px;
-    margin-left: -1%;
+    margin-left: -2%;
     width:61%;
 }
 
