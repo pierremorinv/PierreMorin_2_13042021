@@ -50,19 +50,23 @@
 }
 
 /* stars popular */
+.fa-star{
+    
 
+}
 .StarPopular1{
     color: #0065fc;
-    padding-top: 50px;
+    padding-top:40px;
     font-size: 14px;
     margin-left:4px;
+    
 }
 
 .StarPopular2{
 
     color: #0065fc;
     
-    padding-top: 50px;
+    padding-top: 40px;
     font-size: 14px;
     display: flex;
     margin-left: 4px;
@@ -71,9 +75,9 @@
 .StarPopular3{
     display: flex;
     color: #0065fc;
-    padding-top: 50px;
+    padding-top: 40px;
     font-size: 14px;
-    margin-left: 4px;
+    
 }
 
 .emptyStarPopular{
@@ -349,6 +353,7 @@ background-color:#DEEBFF;
 .margePopular{
     display: flex;
     margin: 4px;
+    height: 150px;
 }
 
 .popularcardContent{
@@ -366,8 +371,7 @@ background-color:#DEEBFF;
     margin: 1.2%;
     margin-left: 0.6%;
     border-radius: 10px 0px 0px 10px;
-    width: 36%;
-    height: 155px;
+    width: 39%;
     object-fit: cover;
 }
 .popularcardInformation{
@@ -395,7 +399,7 @@ background-color:#DEEBFF;
 }
 
 .activitycard{
-    width: 23%;
+    width: 22%;
     border-radius: 15px;
     margin: 12px; 
     
@@ -626,11 +630,22 @@ li{
     margin-bottom: 6%;
     box-shadow:5px 5px 7px 0px #989898;
 }
+.StarPopular1{
+    margin-left:0px;
+}
+.StarPopular2{
+    
+padding-top: 22px;
+margin-left:0px;
+}
+.StarPopular3{
+    padding-top: 42px;
+    margin: left 0px;
+}
 
-.popularcardImg{
     
 
-}
+
 /* Accommodation */
 
 .accommodationContainer{
