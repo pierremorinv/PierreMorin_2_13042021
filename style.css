@@ -631,6 +631,10 @@ li{
     box-shadow:5px 5px 7px 0px #989898;
 }
 
+.popularcardInformation h3{
+    font-size: 17px;
+}
+
 .StarPopular1{
     margin-left:0px;
 }
@@ -638,12 +642,12 @@ li{
 
 .StarPopular2{
     
-padding-top: 22px;
+padding-top: 40px;
 margin-left:0px;
 }
 
 .StarPopular3{
-    padding-top: 42px;
+    padding-top: 40px;
     margin: left 0px;
 }
 
