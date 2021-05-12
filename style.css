@@ -50,10 +50,7 @@
 }
 
 /* stars popular */
-.fa-star{
-    
 
-}
 .StarPopular1{
     color: #0065fc;
     padding-top:40px;
@@ -111,10 +108,8 @@
 
 .navigation a:hover{
     border-top: #0065fc solid 2px;
+} 
 
-    
-    
-}
 
 .navRegister{
     font-weight: bolder;
@@ -123,6 +118,7 @@
 
 .navAccommodation{
     color: #0065fc;
+    border-top: #0065fc solid 2px;
 }
 
 /* Reservia Logo */
@@ -521,7 +517,8 @@ background-color:#DEEBFF;
  padding-left:9%;
  padding-bottom:6%;
  padding-right:9%;
- border-bottom: solid 3px #0065fc;    
+ border-bottom: solid 3px #0065fc;  
+ border-top: none;  
 }
 
 .navActivitity{
@@ -652,7 +649,9 @@ li{
 
 
 /* Accommodation */
-
+.accommodationcard{
+    margin: -2%;
+}
 .accommodationContainer{
     width: 100%;
     display: flex;
@@ -674,8 +673,11 @@ li{
     flex-wrap: wrap;
 }
 .activitycard{
-    width: 100%;   
+    width: 100%; 
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
+
 .activitiescardImgBig,
 .activitiescardImg2,
 .activitiescardImg3,
@@ -700,6 +702,7 @@ li{
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-top: 6%;
 }
 
 .inFooter{
