@@ -373,6 +373,8 @@ background-color:#DEEBFF;
 .popularcardInformation{
     padding-top: 2%;
     padding-left:4%;
+    padding-right: 7%;
+    width: 55%;
 }
 .popularcardInformation p{
     margin-left:3%;
@@ -603,7 +605,7 @@ li{
     padding-right: 5%;
     margin-bottom: 4%;
     margin-left: 0%;
-    margin-right: 2%;
+    margin-right: 3%;
 }
 
 .linkItem{
@@ -631,18 +633,18 @@ li{
 .popularcardInformation h3{
     font-size: 17px;
 }
-
-.StarPopular1{
-    margin-left:0px;
+.popularcardInformation{
+    padding-left: 2%;
+    padding-right: 2%;
 }
-
-
-.StarPopular2{
-    margin-left:0px;
-}
-
+.StarPopular1, 
+.StarPopular2, 
 .StarPopular3{
     margin-left: 0px;
+    margin-top:0px;
+    margin-top: 10px;
+    
+    
 }
 
     
@@ -767,7 +769,10 @@ li{
         width: 100%;
         display: flow-root;
     }
-
+    .popularcardInformation{
+    padding-right: 0px;
+    }
+    
     .add-more{
         padding-bottom: 3%;
     }
