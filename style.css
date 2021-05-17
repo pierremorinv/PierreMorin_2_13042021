@@ -167,8 +167,8 @@
 /*logo research*/ 
 .fa-map-marker-alt{
     padding-left: 18px;
-    padding-top: 16px;
-    padding-bottom:17px;
+    padding-top: 15px;
+    padding-bottom:16px;
     padding-right: 27px;
     border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
@@ -550,10 +550,13 @@ li{
 
 .fa-search{
     background-color: #0065fc;
-    padding: 19px;
+    padding: 16px;
     border-radius: 15px;
     margin-left: -5%;
     color: #f2f2f2;  
+}
+.fa-map-marker-alt{
+    padding: 15px;
 }
 
 .ResearchButton{
@@ -564,9 +567,9 @@ li{
 }
 
 .research{
-    font-size: 17px;
+    font-size: 16px;
     padding: 0px;
-    padding-top:14px;
+    padding-top:13px;
     padding-bottom: 13px;
     padding-left: 30px;
     margin-left: -2%;
