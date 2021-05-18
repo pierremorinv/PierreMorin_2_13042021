@@ -505,6 +505,7 @@ background-color:#DEEBFF;
     .header{
     display: flex;
     flex-wrap: wrap;
+    justify-content: unset;
     }
     #ReserviaLogo{
     width: 100%;
@@ -519,11 +520,13 @@ background-color:#DEEBFF;
     }
     .navigation li{
         display: flex;
-        flex-wrap: wrap-reverse;
+        
     }
    .navigation a{
     
     margin: 0px;
+    padding-left:40px ;
+    padding-right: 40px;
     
     }
 
@@ -535,18 +538,17 @@ background-color:#DEEBFF;
     padding-bottom:6%;
     border-bottom: solid 3px #0065fc;  
     border-top: none;  
-    
    }
    
    .navActivitity{
     border-bottom:solid 3px #f2f2f2;
-   
    }
    
    .navActivitity:hover{
        border-bottom: solid 3px #0065fc;
       
    }
+   
    
 /* Research */
 
