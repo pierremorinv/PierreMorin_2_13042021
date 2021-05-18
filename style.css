@@ -87,6 +87,8 @@
 .header{
     display: flex;
     justify-content:space-between;
+    flex-wrap: wrap-reverse;
+    
 }
 .margeReservia{
     width: 23%;
@@ -96,6 +98,7 @@
 .navigation{
  display:flex;
  list-style-type: none;
+ 
 }
 
 .navigation a{
@@ -110,10 +113,10 @@
     border-top: #0065fc solid 2px;
 } 
 
-
 .navRegister{
     font-weight: bolder;
     color: #0065fc;
+    
 }
 
 .navAccommodation{
@@ -127,8 +130,6 @@
     
     width: 33%;
 }
-
-
 
 /* Section Research */
 
@@ -494,55 +495,59 @@ background-color:#DEEBFF;
 @media screen and (max-width:767px)
 {
 
-    /* Header */
+/* new header mobile */
     .DesktopVersionNone{
-        display: initial; 
+    display: initial;
+    }
+    nav{
+        display:flex;
     }
     .header{
-        display: none;
-    }
-    #ReserviaLogoMobileImg{
-     width: 39%;
- }
- .headerMobile{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navigationMobile{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+    #ReserviaLogo{
+    width: 100%;
+}
+
+    .navigation{
+    display: flex;
+    flex-wrap: wrap-reverse;
     margin: 0%;
-    padding-bottom: 5%;
-   
+    padding: 0%;
     
+    }
+    .navigation li{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+   .navigation a{
     
-}
+    margin: 0px;
+    
+    }
+
+    .navigation a:hover{
+    border-top: none;
+    }
+
 .navAccommodation{
- 
- padding-left:9%;
- padding-bottom:6%;
- padding-right:9%;
- border-bottom: solid 3px #0065fc;  
- border-top: none;  
-}
-
-.navActivitity{
- border-bottom:solid 3px #f2f2f2;
- padding-left:16%;
- padding-bottom:6%;
- padding-right: 15%;
-}
-
-.navActivitity:hover{
-    border-bottom: solid 3px #0065fc
-}
-
-li{
- list-style-type:none;
-}
-
+    padding-bottom:6%;
+    border-bottom: solid 3px #0065fc;  
+    border-top: none;  
+    
+   }
+   
+   .navActivitity{
+    border-bottom:solid 3px #f2f2f2;
+   
+   }
+   
+   .navActivitity:hover{
+       border-bottom: solid 3px #0065fc;
+      
+   }
+   
 /* Research */
 
 .fa-map-marker-alt{
