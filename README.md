@@ -7,4 +7,4 @@ voici mon premier projet de formation chez openClassrooms
 - Implémenter une interface responsive.
 - apprentissage de git et github
 
-  Vous pouvez visiter ce site sur 
+  Vous pouvez visiter ce site sur https://pierremorinv.github.io/PierreMorin_2_13042021/
